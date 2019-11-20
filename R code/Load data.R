@@ -1,0 +1,5 @@
+sds1 <- read.csv("~/Documents/course/stat 605/605project/R code/2017-07_sds011sof.csv")
+bme1 <- read.csv("~/Documents/course/stat 605/605project/R code/2017-07_bme280sof.csv")
+library(xtable)
+xtable(head(sof1))
+xtable(head(bme1))
