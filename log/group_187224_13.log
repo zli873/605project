@@ -1,0 +1,39 @@
+000 (187224.013.000) 2019-12-05 21:10:42 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (187224.013.000) 2019-12-05 21:14:25 Started transferring input files
+	Transferring to host: <128.104.100.120:9618?addrs=128.104.100.120-9618+[2607-f388-107c-501-e2db-55ff-fefc-b7bf]-9618&alias=e0041.chtc.wisc.edu&noUDP&sock=starter_18476_c368_1904>
+...
+040 (187224.013.000) 2019-12-05 21:14:39 Finished transferring input files
+...
+001 (187224.013.000) 2019-12-05 21:14:40 Job executing on host: <128.104.100.120:9618?addrs=128.104.100.120-9618+[2607-f388-107c-501-e2db-55ff-fefc-b7bf]-9618&alias=e0041.chtc.wisc.edu&noUDP&sock=startd_4019_4737_3>
+...
+006 (187224.013.000) 2019-12-05 21:14:48 Image size of job updated: 226300
+	220  -  MemoryUsage of job (MB)
+	224452  -  ResidentSetSize of job (KB)
+...
+006 (187224.013.000) 2019-12-05 21:15:35 Image size of job updated: 1026292
+	220  -  MemoryUsage of job (MB)
+	224700  -  ResidentSetSize of job (KB)
+...
+040 (187224.013.000) 2019-12-05 21:15:35 Started transferring output files
+...
+040 (187224.013.000) 2019-12-05 21:15:35 Finished transferring output files
+...
+005 (187224.013.000) 2019-12-05 21:15:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:49, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:49, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5927870  -  Run Bytes Sent By Job
+	366662176  -  Run Bytes Received By Job
+	5927870  -  Total Bytes Sent By Job
+	366662176  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      1.00        2         2 
+	   Disk (KB)            : 499006     4194304   4516808 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    220        4096      4096 
+
+	Job terminated of its own accord at 2019-12-06T03:15:35Z.
+...
