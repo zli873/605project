@@ -1,0 +1,18 @@
+universe = vanilla
+
+log = /home/yling23/605project/log/group_$(Cluster)_$(Process).log
+error = /home/yling23/605project/error/group_$(Cluster)_$(Process).err
+
+executable = by_month.sh
+arguments = $(loc)
+output = /home/yling23/605project/output/group_$(Cluster)_$(Process).out
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = http://proxy.chtc.wisc.edu/SQUID/chtc/R361.tar.gz, /home/yling23/605project/by_month.R, /home/yling23/605project/sdsdata.tar, /home/yling23/605project/bmedata.tar
+
+request_cpus = 2
+request_memory = 4GB
+request_disk = 4GB
+
+queue loc from location.txt

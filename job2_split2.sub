@@ -1,0 +1,20 @@
+universe = vanilla
+
+initialdir = data
+
+log = /home/yling23/605project/log/group_$(Cluster)_$(Process).log
+error = /home/yling23/605project/error/group_$(Cluster)_$(Process).err
+
+executable = split2.sh
+arguments = $(file)
+output = /home/yling23/605project/output/group_$(Cluster)_$(Process).out
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = $(file), http://proxy.chtc.wisc.edu/SQUID/chtc/R361.tar.gz, /home/yling23/605project/split2.R
+
+request_cpus = 2
+request_memory = 4GB
+request_disk = 4GB
+
+queue file from bme.txt

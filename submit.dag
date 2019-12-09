@@ -1,0 +1,10 @@
+JOB A job1_split1.sub
+JOB B job2_split2.sub
+JOB C job3_statcompute.sub
+
+SCRIPT PRE A PRE.sh
+SCRIPT POST A compress1.sh
+SCRIPT POST B compress2.sh
+
+PARENT A B CHILD C
+
